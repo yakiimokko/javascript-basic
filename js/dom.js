@@ -43,3 +43,12 @@ console.log(document.getElementById('second-heading'));
  for (let i = 0; i < cssLists.length; i++) {
   console.log(cssLists[i]);
 }
+
+//新しくli要素を作成し、定数に代入する
+const li = document.createElement('li');
+
+//作成したli要素にテキストを追加する
+li.textContent = 'JavaScriptで新しく作成したリスト3';
+
+//ul要素の末尾にli要素を追加する
+document.querySelector('ul').appendChild(li);
