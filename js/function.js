@@ -2,12 +2,12 @@ const sayGoodMorning =()=>{
     console.log('おはようございます！');
     console.log('よく眠れましたか？');
     console.log('今日も一日がんばりましょう！');
-}
+};
 
 const sayGoodEvening =()=>{
     console.log('こんばんは！');
     console.log('今日も一日お疲れさまでした。');
-}
+};
 
 sayGoodMorning();
 
@@ -16,13 +16,13 @@ sayGoodEvening();
 //引数
 const calculateTotal =(price)=> {
     console.log(price + 500 +'円');
-}
+};
 
 calculateTotal(1200);
 
 const addTwoArguments = (price, shippingFee) => {  
    console.log(price + shippingFee + '円');
- }
+ };
  
 addTwoArguments(1200, 500);
 
